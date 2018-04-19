@@ -1,10 +1,8 @@
-def is_negative(term1)
+def is_even(term)
     output = false
-    if term1 < 0
+    if term % 2 == 0
         output = true
     end
     return output
+
 end
-
-
-
